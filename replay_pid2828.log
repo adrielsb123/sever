@@ -1,0 +1,793 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 217 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 4754641 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 1113 1 33105 0 -1
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 3073 1 384 0 -1
+ciMethod java/lang/Class isPrimitive ()Z 2049 1 256 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 1025 1 128 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;)V 1881 1 10784 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2065 1 20592 0 96
+ciMethod java/lang/ref/WeakReference <init> (Ljava/lang/Object;)V 2265 1 8210 0 -1
+ciMethod java/lang/ref/WeakReference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2049 1 8787 0 96
+ciMethod java/lang/ref/ReferenceQueue reallyPoll ()Ljava/lang/ref/Reference; 9 1 6376 0 256
+ciMethod java/lang/ref/ReferenceQueue poll ()Ljava/lang/ref/Reference; 2065 1 15139 0 0
+ciMethod java/lang/invoke/MethodType <init> (Ljava/lang/Class;[Ljava/lang/Class;Z)V 1257 1 1759 0 0
+ciMethod java/lang/invoke/MethodType <init> ([Ljava/lang/Class;Ljava/lang/Class;)V 2137 1 10453 0 0
+ciMethod java/lang/invoke/MethodType form ()Ljava/lang/invoke/MethodTypeForm; 1025 1 128 0 0
+ciMethod java/lang/invoke/MethodType ptypes ()[Ljava/lang/Class; 1033 1 129 0 0
+ciMethod java/lang/invoke/MethodType checkRtype (Ljava/lang/Class;)V 2089 1 1764 0 0
+ciMethod java/lang/invoke/MethodType checkPtype (Ljava/lang/Class;)V 2057 1 6165 0 0
+ciMethod java/lang/invoke/MethodType checkPtypes ([Ljava/lang/Class;)I 3497 7665 2692 0 0
+ciMethod java/lang/invoke/MethodType checkSlotCount (I)V 2097 1 3882 0 0
+ciMethod java/lang/invoke/MethodType makeImpl (Ljava/lang/Class;[Ljava/lang/Class;Z)Ljava/lang/invoke/MethodType; 1641 1 10452 0 0
+ciMethod java/lang/invoke/MethodType genericMethodType (I)Ljava/lang/invoke/MethodType; 945 1 178 0 -1
+ciMethod java/lang/invoke/MethodType returnType ()Ljava/lang/Class; 1129 1 141 0 0
+ciMethod java/lang/invoke/MethodType hashCode ()I 2065 4169 5431 0 320
+ciMethod java/lang/StringBuilder <init> ()V 713 1 44134 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1297 1 94451 0 -1
+ciMethod java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 1 1 10271 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 705 1 45267 0 -1
+ciMethod java/lang/NullPointerException <init> ()V 0 0 1 0 -1
+ciMethod sun/misc/VM addFinalRefCount (I)V 2529 1 13462 0 0
+ciMethod java/util/Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object; 2049 1 817590 0 64
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 3073 1 28101 0 -1
+ciMethodData java/lang/Object <init> ()V 2 4754645 orig 264 88 131 123 106 0 0 0 0 104 4 125 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 169 86 68 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/ConcurrentMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentMap remove (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentMap get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap spread (I)I 2057 1 62029 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 2297 1 95603 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap casTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z 1977 1 19477 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap setTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;)V 2449 1 19243 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; 2049 393 20446 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap remove (Ljava/lang/Object;)Ljava/lang/Object; 3081 1 9433 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap replaceNode (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 3273 1417 15139 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2057 1 13304 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap initTable ()[Ljava/util/concurrent/ConcurrentHashMap$Node; 41 1 293 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap addCount (JI)V 1721 49 17278 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap helpTransfer ([Ljava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)[Ljava/util/concurrent/ConcurrentHashMap$Node; 0 0 60 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap treeifyBin ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)V 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/concurrent/ConcurrentHashMap$Node;)V 2009 1 40188 0 -1
+ciMethod java/lang/invoke/MethodHandleStatics newIllegalArgumentException (Ljava/lang/String;)Ljava/lang/RuntimeException; 0 0 1 0 -1
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2 20592 orig 264 88 131 123 106 0 0 0 0 120 106 127 20 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 113 123 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 9 0x10002 0x4f6e 0xb0007 0x3ad4 0x38 0x149b 0x110003 0x149b 0x18 oops 0
+ciMethodData java/util/concurrent/ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; 2 20446 orig 264 88 131 123 106 0 0 0 0 200 245 149 20 0 0 0 0 152 6 0 0 152 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 241 118 2 0 225 103 0 0 21 22 0 0 56 4 0 0 2 0 0 0 2 0 61 0 2 0 0 0 56 5 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 167 0x10007 0x0 0x40 0x4ede 0x50007 0x4edd 0x30 0x0 0xc0002 0x0 0x110005 0x3629 0x2a7a780 0x1891 0x2a7a810 0x2a 0x140002 0x4ee1 0x240007 0x2f 0x40 0x4eef 0x2d0007 0x4ef1 0x48 0x0 0x310002 0x2f 0x360003 0x2f 0x430 0x450002 0x4eef 0x4b0007 0x253c 0x78 0x29b5 0x5c0002 0x29b5 0x5f0002 0x29b5 0x620007 0x1 0x3c8 0x29b4 0x650003 0x29b4 0x3c0 0x710007 0x252e 0x68 0xd 0x790005 0x6 0x174668d0 0x7 0x0 0x0 0x7e0003 0xd 0x340 0x8e0002 0x252f 0x930007 0x0 0x290 0x252e 0x980007 0x0 0x180 0x252e 0xa90007 0x2846 0xe8 0x9a9 0xb50007 0x1cb 0x90 0x7de 0xba0007 0x0 0xa8 0x7de 0xc0f005 0x17a 0x2a7a780 0x664 0x1bca2360 0x8 0xc30007 0x17a 0x58 0x66c 0xce0007 0x835 0x98 0x2 0xd70003 0x2 0x78 0xe60007 0xcbf 0x48 0x1d00 0xf40002 0x1d00 0xfa0003 0x1d00 0x30 0x1000003 0xcbf 0xfffffffffffffed0 0x1030003 0x2537 0x108 0x1080004 0x0 0x0 0x0 0x0 0x0 0x10b0007 0x0 0xc0 0x0 0x1130004 0x0 0x0 0x0 0x0 0x0 0x11a0005 0x0 0x0 0x0 0x0 0x0 0x1200007 0x0 0x40 0x0 0x12b0007 0x0 0x20 0x0 0x1370003 0x2538 0x18 0x1440007 0x0 0x70 0x2538 0x14b0007 0x2538 0x30 0x0 0x1530002 0x0 0x1580007 0x1d00 0x38 0x837 0x15e0003 0x3d 0xfffffffffffffb80 0x1650002 0x46b3 oops 5 12 java/lang/String 14 java/lang/Class 54 java/util/concurrent/ConcurrentHashMap 85 java/lang/String 87 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
+ciMethodData java/util/concurrent/ConcurrentHashMap putIfAbsent (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 13304 orig 264 88 131 123 106 0 0 0 0 80 4 150 20 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 185 151 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x174668d0 0x32f6 0x0 0x0 oops 1 2 java/util/concurrent/ConcurrentHashMap
+ciMethodData java/lang/ref/ReferenceQueue poll ()Ljava/lang/ref/Reference; 2 15139 orig 264 88 131 123 106 0 0 0 0 24 151 127 20 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 9 209 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 6 0x40007 0x109 0x20 0x3918 0x110002 0x109 oops 0
+ciMethodData java/lang/ref/ReferenceQueue reallyPoll ()Ljava/lang/ref/Reference; 2 6376 orig 264 88 131 123 106 0 0 0 0 96 150 127 20 0 0 0 0 0 2 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 57 199 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 184 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 23 0x60007 0xa 0xb8 0x18dd 0x110007 0x18cc 0x38 0x11 0x150003 0x11 0x18 0x330004 0xffffffffffffff27 0x2a7b910 0x1804 0x170e5390 0x2 0x360007 0xd9 0x30 0x1804 0x3a0002 0x1804 oops 2 13 java/lang/ref/Finalizer 15 java/util/WeakHashMap$Entry
+ciMethodData java/lang/ref/WeakReference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2 8787 orig 264 88 131 123 106 0 0 0 0 80 113 127 20 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 153 10 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x2153 oops 0
+ciMethodData java/util/Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object; 2 817590 orig 264 88 131 123 106 0 0 0 0 240 53 140 20 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 177 197 99 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 6 0x10007 0xc7901 0x30 0x0 0x80002 0x0 oops 0
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;)V 2 10784 orig 264 88 131 123 106 0 0 0 0 208 105 127 20 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 235 0 0 0 169 73 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x2935 oops 0
+ciMethodData sun/misc/VM addFinalRefCount (I)V 2 13462 orig 264 88 131 123 106 0 0 0 0 80 132 139 20 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58 1 0 0 209 154 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 32 0 0 0 255 255 255 255 7 0 14 0 0 0 0 0 data 4 0xe0007 0x3079 0x20 0x2e1 oops 0
+ciMethodData java/lang/ref/WeakReference <init> (Ljava/lang/Object;)V 2 8210 orig 264 88 131 123 106 0 0 0 0 184 112 127 20 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 1 0 0 185 247 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x1ef7 oops 0
+ciMethod sun/invoke/util/Wrapper isDoubleWord ()Z 2105 1 929 0 -1
+ciMethod sun/invoke/util/Wrapper isSubwordOrInt ()Z 561 1 773 0 -1
+ciMethod sun/invoke/util/Wrapper forPrimitiveType (Ljava/lang/Class;)Lsun/invoke/util/Wrapper; 745 1 2346 0 -1
+ciMethod sun/invoke/util/Wrapper forBasicType (Ljava/lang/Class;)Lsun/invoke/util/Wrapper; 3073 1 6742 0 -1
+ciMethod sun/invoke/util/Wrapper asWrapperType (Ljava/lang/Class;)Ljava/lang/Class; 0 0 1 0 -1
+ciMethod sun/invoke/util/Wrapper asPrimitiveType (Ljava/lang/Class;)Ljava/lang/Class; 0 0 1 0 -1
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet get (Ljava/lang/Object;)Ljava/lang/Object; 2153 1 6528 0 4320
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet add (Ljava/lang/Object;)Ljava/lang/Object; 1273 1 1760 0 0
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet expungeStaleElements ()V 2073 1 8290 0 0
+ciMethod java/lang/invoke/MethodTypeForm <init> (Ljava/lang/invoke/MethodType;)V 457 2393 262 0 -1
+ciMethod java/lang/invoke/MethodTypeForm pack (IIII)J 2049 1 434 0 -1
+ciMethod java/lang/invoke/MethodTypeForm findForm (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodTypeForm; 1257 1 1758 0 0
+ciMethod java/lang/invoke/MethodTypeForm canonicalize (Ljava/lang/invoke/MethodType;II)Ljava/lang/invoke/MethodType; 1257 1 1836 0 0
+ciMethod java/lang/invoke/MethodTypeForm canonicalize (Ljava/lang/Class;I)Ljava/lang/Class; 2057 1 5380 0 384
+ciMethod java/lang/invoke/MethodTypeForm canonicalizeAll ([Ljava/lang/Class;I)[Ljava/lang/Class; 2049 6985 1837 0 0
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2297 1 1768 0 0
+ciMethod java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry <init> (Ljava/lang/Object;)V 2161 1 6529 0 -1
+ciMethodData java/lang/invoke/MethodType hashCode ()I 2 11991 orig 264 88 131 123 106 0 0 0 0 64 111 131 20 0 0 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 2 0 0 169 161 0 0 113 102 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 6 0 2 0 0 0 152 0 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 19 0x60005 0x0 0x2a7a810 0x1435 0x0 0x0 0x190007 0x1433 0x68 0x2cce 0x280005 0x0 0x2a7a810 0x2ccf 0x0 0x0 0x300003 0x2cce 0xffffffffffffffb0 oops 2 2 java/lang/Class 12 java/lang/Class
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet expungeStaleElements ()V 2 8297 orig 264 88 131 123 106 0 0 0 0 24 146 11 24 0 0 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 49 251 0 0 41 8 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 12 0 2 0 0 0 152 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 19 0x40005 0x0 0x2a7b9a0 0x206b 0x0 0x0 0x90007 0x1f66 0x68 0x105 0x110005 0x0 0x174668d0 0x105 0x0 0x0 0x170003 0x105 0xffffffffffffff80 oops 2 2 java/lang/ref/ReferenceQueue 12 java/util/concurrent/ConcurrentHashMap
+ciMethodData java/lang/invoke/MethodTypeForm canonicalize (Ljava/lang/Class;I)Ljava/lang/Class; 2 5380 orig 264 88 131 123 106 0 0 0 0 24 183 11 24 0 0 0 0 104 4 0 0 120 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 25 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 55 0 2 0 0 0 24 3 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 99 0x30007 0xe57 0x38 0x5ae 0x60003 0x5ae 0x2f8 0xa0005 0x4 0x2a7a810 0xe53 0x0 0x0 0xd0007 0x447 0xb8 0xa0f 0x110008 0x8 0x0 0x80 0x2 0x80 0x0 0x50 0x0 0x80 0x350002 0x0 0x3b0007 0x0 0x20 0x0 0x430003 0x0 0x210 0x4a0007 0x329 0x78 0x11e 0x4e0008 0x6 0x2 0x40 0x0 0x40 0x0 0x40 0x6f0003 0x11e 0x198 0x730008 0xc 0x0 0x180 0x0 0x70 0x0 0x180 0x0 0x80 0x0 0xe0 0x0 0x100 0x950002 0x0 0x9d0007 0x0 0x40 0x0 0xa40007 0x0 0x20 0x0 0xad0007 0x0 0x20 0x0 0xbc0007 0x0 0x20 0x0 0xc90007 0x0 0x80 0x0 0xd00007 0x0 0x60 0x0 0xd70007 0x0 0x40 0x0 0xde0007 0x0 0x20 0x0 oops 1 9 java/lang/Class
+ciMethodData java/lang/invoke/MethodType checkSlotCount (I)V 2 3887 orig 264 88 131 123 106 0 0 0 0 72 82 131 20 0 0 0 0 24 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 73 113 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 208 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 26 0x60007 0xe2a 0xd0 0x0 0xd0002 0x0 0x120005 0x0 0x0 0x0 0x0 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x190005 0x0 0x0 0x0 0x0 0x0 0x1c0002 0x0 oops 0
+ciMethodData java/lang/invoke/MethodType makeImpl (Ljava/lang/Class;[Ljava/lang/Class;Z)Ljava/lang/invoke/MethodType; 2 10452 orig 264 88 131 123 106 0 0 0 0 8 88 131 20 0 0 0 0 136 2 0 0 176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 205 0 0 0 57 64 1 0 1 0 0 0 116 20 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 48 1 0 0 255 255 255 255 2 0 9 0 0 0 0 0 data 38 0x90002 0x2808 0xc0005 0x0 0x1bc9b860 0x2809 0x0 0x0 0xf0104 0x0 0x1515c060 0x2182 0x0 0x0 0x140007 0x68b 0x20 0x2182 0x1b0007 0x61e 0x20 0x6c 0x2b0002 0x68a 0x310002 0x68a 0x3b0005 0x0 0x1bc9b860 0x68a 0x0 0x0 0x3e0004 0x0 0x1515c060 0x68c 0x0 0x0 oops 4 4 java/lang/invoke/MethodType$ConcurrentWeakInternSet 10 java/lang/invoke/MethodType 28 java/lang/invoke/MethodType$ConcurrentWeakInternSet 34 java/lang/invoke/MethodType
+ciMethodData java/lang/invoke/MethodType checkPtype (Ljava/lang/Class;)V 2 6165 orig 264 88 131 123 106 0 0 0 0 208 80 131 20 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 161 184 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x1714 0x90007 0x1715 0x30 0x0 0xe0002 0x0 oops 0
+ciMethodData java/lang/invoke/MethodType <init> ([Ljava/lang/Class;Ljava/lang/Class;)V 2 10458 orig 264 88 131 123 106 0 0 0 0 96 77 131 20 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 1 0 0 121 62 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x27d0 oops 0
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet get (Ljava/lang/Object;)Ljava/lang/Object; 2 6528 orig 264 88 131 123 106 0 0 0 0 160 144 11 24 0 0 0 0 112 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 1 0 0 153 195 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 21 0 2 0 0 0 32 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 36 0x10007 0x1873 0x30 0x0 0x80002 0x0 0xd0002 0x1873 0x190002 0x1874 0x1c0005 0x0 0x174668d0 0x1877 0x0 0x0 0x210104 0x0 0x1bca2360 0x1469 0x0 0x0 0x260007 0x40b 0x70 0x146a 0x2a0005 0x0 0x1bca2360 0x146b 0x0 0x0 0x2f0007 0x0 0x20 0x146a oops 3 12 java/util/concurrent/ConcurrentHashMap 18 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 28 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry <init> (Ljava/lang/Object;)V 2 6529 orig 264 88 131 123 106 0 0 0 0 120 231 11 24 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 1 0 0 153 195 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 8 0x20002 0x1873 0x70005 0x0 0x1515c060 0x1877 0x0 0x0 oops 1 4 java/lang/invoke/MethodType
+ciMethodData java/lang/invoke/MethodType <init> (Ljava/lang/Class;[Ljava/lang/Class;Z)V 2 1764 orig 264 88 131 123 106 0 0 0 0 192 76 131 20 0 0 0 0 8 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 157 0 0 0 57 50 0 0 1 0 0 0 76 3 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 168 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 21 0x10002 0x647 0x50002 0x647 0x90002 0x647 0x140007 0x0 0x38 0x647 0x180003 0x647 0x58 0x1e0002 0x0 0x210004 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/lang/invoke/MethodTypeForm findForm (Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodTypeForm; 2 1765 orig 264 88 131 123 106 0 0 0 0 216 180 11 24 0 0 0 0 184 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 157 0 0 0 65 50 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 112 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 14 0x30002 0x648 0x80007 0x57c 0x30 0xce 0x100002 0xce 0x150005 0xc 0x1515c060 0x570 0x0 0x0 oops 1 10 java/lang/invoke/MethodType
+ciMethodData java/lang/invoke/MethodTypeForm canonicalize (Ljava/lang/invoke/MethodType;II)Ljava/lang/invoke/MethodType; 2 1836 orig 264 88 131 123 106 0 0 0 0 160 181 11 24 0 0 0 0 104 2 0 0 224 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 157 0 0 0 121 52 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 16 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 34 0x10005 0x82 0x1515c060 0x60d 0x0 0x0 0x70002 0x68f 0xd0005 0x82 0x1515c060 0x60f 0x0 0x0 0x150002 0x691 0x1c0007 0x50b 0x40 0x186 0x210007 0xb8 0x20 0xce 0x280007 0x391 0x20 0x232 0x310007 0x50b 0x20 0xb8 0x3c0002 0x5c3 oops 2 2 java/lang/invoke/MethodType 10 java/lang/invoke/MethodType
+ciMethodData java/lang/invoke/MethodTypeForm <init> (Ljava/lang/invoke/MethodType;)V 1 1897 orig 264 88 131 123 106 0 0 0 0 240 170 11 24 0 0 0 0 192 8 0 0 8 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43 1 0 0 145 6 0 0 241 49 0 0 0 0 0 0 0 0 0 0 2 0 0 0 3 0 118 0 2 0 0 0 104 7 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 237 0x10002 0xd2 0xa0005 0xa1 0x1515c060 0x31 0x0 0x0 0x3b0007 0xd2 0x1d8 0x54e 0x490007 0x2ec 0x1a0 0x262 0x510002 0x262 0x580005 0x1d9 0x191496a0 0x89 0x0 0x0 0x5b0007 0x20a 0x20 0x58 0x630005 0x1d9 0x191496a0 0x89 0x0 0x0 0x660007 0x58 0xf0 0x20a 0x6e0007 0x1e7 0xd0 0x23 0x750007 0x8 0x80 0x1b 0x7a0005 0x0 0x1bc9b510 0x1b 0x0 0x0 0x7d0004 0x0 0x1bc9b510 0x1b 0x0 0x0 0x890004 0x0 0x2a7a810 0x23 0x0 0x0 0x8d0003 0x54e 0xfffffffffffffe40 0x980005 0xa1 0x1515c060 0x31 0x0 0x0 0xa50007 0x67 0x128 0x6b 0xad0002 0x6b 0xb40005 0x52 0x191496a0 0x19 0x0 0x0 0xb70007 0x6b 0x20 0x0 0xbf0005 0x52 0x191496a0 0x19 0x0 0x0 0xc20007 0x32 0x40 0x39 0xca0007 0x28 0x20 0x11 0xd70007 0x3c 0x38 0x2f 0xe00003 0x2f 0x18 0xee0007 0x1b 0x58 0xb7 0xf50007 0x10 0x38 0xa7 0xfd0003 0xa7 0xa8 0x1060002 0x2b 0x1100005 0x21 0x1515c060 0xa 0x0 0x0 0x1180007 0x2b 0x50 0x0 0x11e0007 0x0 0x30 0x0 0x1250002 0x0 0x15a0007 0x87 0x120 0x20 0x1800007 0x20 0x98 0x91 0x18c0002 0x91 0x1930005 0x68 0x191496a0 0x29 0x0 0x0 0x1960007 0x3f 0x20 0x52 0x1b40003 0x91 0xffffffffffffff80 0x1ba0007 0x20 0x50 0x0 0x1bf0007 0x0 0x30 0x0 0x1c60002 0x0 0x1ca0003 0x20 0x168 0x1cf0007 0xd 0x118 0x7a 0x1d50007 0x7a 0x50 0x0 0x1db0007 0x0 0x30 0x0 0x1e20002 0x0 0x1e70002 0x7a 0x1ea0005 0x5e 0x1515c060 0x1c 0x0 0x0 0x1f20007 0x7a 0x50 0x0 0x1f80007 0x0 0x30 0x0 0x1ff0002 0x0 0x2110003 0x7a 0x50 0x2320007 0xd 0x38 0x5f 0x24d0003 0x5f 0xffffffffffffffe0 0x2590002 0xa7 0x2670002 0xa7 0x27e0007 0xa7 0x30 0x0 0x2830002 0x0 0x28a0007 0xa7 0x50 0x0 0x2920007 0x0 0x30 0x0 0x2990002 0x0 oops 12 4 java/lang/invoke/MethodType 20 sun/invoke/util/Wrapper 30 sun/invoke/util/Wrapper 48 [Ljava/lang/Class; 54 [Ljava/lang/Class; 60 java/lang/Class 69 java/lang/invoke/MethodType 81 sun/invoke/util/Wrapper 91 sun/invoke/util/Wrapper 125 java/lang/invoke/MethodType 151 sun/invoke/util/Wrapper 193 java/lang/invoke/MethodType
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet add (Ljava/lang/Object;)Ljava/lang/Object; 2 1769 orig 264 88 131 123 106 0 0 0 0 112 145 11 24 0 0 0 0 136 2 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 159 0 0 0 81 50 0 0 81 46 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 28 0 2 0 0 0 56 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 39 0x10007 0x64a 0x30 0x0 0x80002 0x0 0x150002 0x649 0x1a0002 0x64a 0x230005 0x0 0x174668d0 0x649 0x0 0x0 0x280104 0x0 0x1bca2360 0xc 0x0 0x0 0x2f0007 0xc 0x38 0x63f 0x330003 0x63f 0x48 0x380005 0x0 0x1bca2360 0xc 0x0 0x0 0x3d0007 0x0 0xffffffffffffff28 0x64b oops 3 12 java/util/concurrent/ConcurrentHashMap 18 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 31 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
+ciMethodData java/lang/invoke/MethodType checkPtypes ([Ljava/lang/Class;)I 2 6166 orig 264 88 131 123 106 0 0 0 0 152 81 131 20 0 0 0 0 224 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 190 3 0 0 121 70 0 0 193 162 0 0 145 4 0 0 82 10 0 0 2 0 0 0 1 0 21 0 2 0 0 0 152 0 0 0 255 255 255 255 7 0 13 0 0 0 0 0 data 19 0xd0007 0x8d0 0x88 0x1457 0x180002 0x1458 0x200007 0x8d 0x40 0x13cb 0x28e007 0x13af 0x20 0x1d 0x310003 0x1458 0xffffffffffffff90 0x380002 0x8d0 oops 0
+ciMethodData java/lang/invoke/MethodTypeForm canonicalizeAll ([Ljava/lang/Class;I)[Ljava/lang/Class; 2 5294 orig 264 88 131 123 106 0 0 0 0 232 183 11 24 0 0 0 0 136 2 0 0 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 105 3 0 0 105 49 0 0 41 138 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 15 0 2 0 0 0 56 1 0 0 255 255 255 255 7 0 11 0 0 0 0 0 data 39 0xb0007 0x62e 0x138 0x1146 0x130002 0x1146 0x1d0007 0x1146 0x20 0x0 0x250007 0x9a6 0xd0 0x79f 0x290007 0x2de 0x80 0x4c1 0x2d0005 0x0 0x1bc9b510 0x4c1 0x0 0x0 0x300004 0x0 0x1bc9b510 0x4c3 0x0 0x0 0x390004 0x0 0x2a7a810 0x7a1 0x0 0x0 0x3d0003 0x1145 0xfffffffffffffee0 oops 3 20 [Ljava/lang/Class; 26 [Ljava/lang/Class; 32 java/lang/Class
+ciMethodData java/lang/invoke/MethodType checkRtype (Ljava/lang/Class;)V 2 1764 orig 264 88 131 123 106 0 0 0 0 48 80 131 20 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 249 46 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x5df oops 0
+ciMethodData java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2 1768 orig 264 88 131 123 106 0 0 0 0 224 230 11 24 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 1 0 0 73 46 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 8 0x30002 0x5c9 0x80005 0x0 0x1515c060 0x5cb 0x0 0x0 oops 1 4 java/lang/invoke/MethodType
+ciMethodData java/util/concurrent/ConcurrentHashMap remove (Ljava/lang/Object;)Ljava/lang/Object; 2 9433 orig 264 88 131 123 106 0 0 0 0 48 247 149 20 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 193 26 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x2 0x174668d0 0x2356 0x0 0x0 oops 1 2 java/util/concurrent/ConcurrentHashMap
+ciMethodData java/util/concurrent/ConcurrentHashMap replaceNode (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2 15139 orig 264 88 131 123 106 0 0 0 0 112 249 149 20 0 0 0 0 16 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 153 1 0 0 81 204 1 0 169 203 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 77 0 2 0 0 0 176 6 0 0 255 255 255 255 5 240 1 0 0 0 0 0 data 214 0x1f005 0x6 0x1a07a100 0x3918 0x1bca2360 0x70 0x40002 0x398f 0x110007 0x0 0x670 0x398f 0x1a0007 0x0 0x650 0x398f 0x290002 0x398f 0x2f0007 0x398e 0x38 0x0 0x320003 0x0 0x600 0x3e0007 0x398e 0x68 0x0 0x460005 0x0 0x0 0x0 0x0 0x0 0x4b0003 0x0 0x580 0x5e0002 0x3990 0x630007 0x1 0x4d0 0x398d 0x680007 0x0 0x268 0x398d 0x7c0007 0x1839 0x1f8 0x3ac9 0x880007 0x398e 0x90 0x13b 0x8d0007 0x0 0x1b8 0x13b 0x930005 0x0 0x1a07a100 0x13b 0x0 0x0 0x960007 0x13b 0x168 0x0 0xa10007 0x398c 0xb0 0x2 0xa70007 0x2 0x90 0x0 0xac0007 0x0 0x140 0x0 0xb20005 0x0 0x0 0x0 0x0 0x0 0xb50007 0x0 0xf0 0x0 0xbd0007 0x398b 0x38 0x2 0xc60003 0x2 0xb0 0xcb0007 0x25ae 0x38 0x13df 0xd80003 0x13df 0x78 0xe40002 0x25ae 0xe70003 0x25af 0x50 0xf60007 0x1974 0xfffffffffffffe08 0x0 0xf90003 0x0 0x18 0xfc0003 0x3990 0x260 0x1010004 0x0 0x0 0x0 0x0 0x0 0x1040007 0x0 0x218 0x0 0x10c0004 0x0 0x0 0x0 0x0 0x0 0x1190007 0x0 0x1c8 0x0 0x1220005 0x0 0x0 0x0 0x0 0x0 0x1280007 0x0 0x178 0x0 0x1330007 0x0 0xb0 0x0 0x1390007 0x0 0x90 0x0 0x13e0007 0x0 0x118 0x0 0x1440005 0x0 0x0 0x0 0x0 0x0 0x1470007 0x0 0xc8 0x0 0x14f0007 0x0 0x38 0x0 0x1580003 0x0 0x88 0x15f0005 0x0 0x0 0x0 0x0 0x0 0x1620007 0x0 0x40 0x0 0x16e0002 0x0 0x1710002 0x0 0x1770003 0x3991 0x18 0x1840007 0x1 0x70 0x3990 0x1890007 0x0 0x68 0x398f 0x18d0007 0x2 0x30 0x398c 0x1950002 0x398d 0x19b0003 0x1 0xfffffffffffff9a8 oops 3 2 org/apache/commons/lang3/tuple/ImmutableTriple 4 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry 62 org/apache/commons/lang3/tuple/ImmutableTriple
+instanceKlass pm$$Lambda$1612
+instanceKlass r
+instanceKlass com/google/gson/internal/ConstructorConstructor$12
+instanceKlass java/util/concurrent/ConcurrentNavigableMap
+instanceKlass com/mojang/datafixers/types/JsonOps$$Lambda$1611
+instanceKlass com/mojang/datafixers/types/JsonOps$$Lambda$1610
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1609
+instanceKlass com/mojang/datafixers/types/templates/CompoundList$CompoundListType$$Lambda$1608
+instanceKlass com/mojang/datafixers/types/templates/Sum$SumType$$Lambda$1607
+instanceKlass com/mojang/datafixers/types/templates/Sum$SumType$$Lambda$1606
+instanceKlass ye$$Lambda$1605
+instanceKlass com/mojang/datafixers/kinds/IdF$Instance$$Lambda$1604
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1603
+instanceKlass yb$$Lambda$1602
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1601
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1600
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1599
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1598
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1597
+instanceKlass yb$$Lambda$1596
+instanceKlass com/mojang/datafixers/util/Pair$Instance$$Lambda$1595
+instanceKlass com/mojang/datafixers/optics/profunctors/TraversalP$1$$Lambda$1594
+instanceKlass com/mojang/datafixers/optics/Traversal$Instance$1$$Lambda$1593
+instanceKlass com/mojang/datafixers/Typed$$Lambda$1592
+instanceKlass com/mojang/datafixers/optics/profunctors/TraversalP$$Lambda$1591
+instanceKlass com/mojang/datafixers/optics/profunctors/TraversalP$$Lambda$1590
+instanceKlass com/mojang/datafixers/optics/Traversal$Instance$2
+instanceKlass com/mojang/datafixers/optics/profunctors/TraversalP$1
+instanceKlass com/mojang/datafixers/util/Pair$Instance
+instanceKlass com/mojang/datafixers/kinds/CartesianLike
+instanceKlass com/mojang/datafixers/optics/Traversal$Instance$1
+instanceKlass com/mojang/datafixers/optics/Traversal$Instance$$Lambda$1589
+instanceKlass com/mojang/datafixers/optics/Optics$1
+instanceKlass com/mojang/datafixers/optics/Traversal$Instance
+instanceKlass com/mojang/datafixers/Typed$$Lambda$1588
+instanceKlass com/mojang/datafixers/util/Either$$Lambda$1587
+instanceKlass com/mojang/datafixers/util/Either$$Lambda$1586
+instanceKlass com/mojang/datafixers/types/templates/Named$NamedType$$Lambda$1585
+instanceKlass com/mojang/datafixers/types/templates/Product$ProductType$$Lambda$1584
+instanceKlass com/mojang/datafixers/types/templates/Product$ProductType$$Lambda$1583
+instanceKlass com/mojang/datafixers/types/templates/Product$ProductType$$Lambda$1582
+instanceKlass com/mojang/datafixers/util/Either$$Lambda$1581
+instanceKlass com/mojang/datafixers/util/Either$$Lambda$1580
+instanceKlass com/mojang/datafixers/types/templates/Sum$SumType$$Lambda$1579
+instanceKlass com/mojang/datafixers/types/Type$$Lambda$1578
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/mojang/datafixers/types/Type$$Lambda$1577
+instanceKlass com/mojang/datafixers/types/Type$TypeError
+instanceKlass com/mojang/datafixers/FieldFinder$Matcher
+instanceKlass yb$$Lambda$1576
+instanceKlass com/mojang/datafixers/optics/ListTraversal$$Lambda$1575
+instanceKlass com/mojang/datafixers/kinds/IdF$Instance$$Lambda$1574
+instanceKlass abc$$Lambda$1573
+instanceKlass com/mojang/datafixers/optics/ListTraversal$$Lambda$1572
+instanceKlass com/mojang/datafixers/kinds/IdF
+instanceKlass com/mojang/datafixers/optics/ListTraversal$$Lambda$1571
+instanceKlass com/mojang/datafixers/FunctionType$Instance$$Lambda$1570
+instanceKlass com/mojang/datafixers/optics/Prism$$Lambda$1569
+instanceKlass com/mojang/datafixers/util/Either$$Lambda$1568
+instanceKlass com/mojang/datafixers/util/Either$$Lambda$1567
+instanceKlass com/mojang/datafixers/optics/Inj1$$Lambda$1566
+instanceKlass com/mojang/datafixers/optics/Inj1$$Lambda$1565
+instanceKlass abc$$Lambda$1564
+instanceKlass com/mojang/datafixers/DataFix$$Lambda$1563
+instanceKlass com/mojang/datafixers/optics/Prism$$Lambda$1562
+instanceKlass com/mojang/datafixers/optics/Prism$$Lambda$1561
+instanceKlass com/mojang/datafixers/FunctionType$Instance$$Lambda$1560
+instanceKlass com/mojang/datafixers/FunctionType$Instance$$Lambda$1559
+instanceKlass ye$$Lambda$1558
+instanceKlass com/mojang/datafixers/optics/Adapter$$Lambda$1557
+instanceKlass com/mojang/datafixers/optics/Adapter$$Lambda$1556
+instanceKlass com/mojang/datafixers/FunctionType$Instance$$Lambda$1555
+instanceKlass com/mojang/datafixers/optics/Lens$$Lambda$1554
+instanceKlass com/mojang/datafixers/optics/Lens$$Lambda$1553
+instanceKlass com/mojang/datafixers/FunctionType$Instance$$Lambda$1552
+instanceKlass com/mojang/datafixers/FunctionType$$Lambda$1551
+instanceKlass com/mojang/datafixers/functions/ProfunctorTransformer$$Lambda$1550
+instanceKlass com/mojang/datafixers/functions/Apply$$Lambda$1549
+instanceKlass com/mojang/datafixers/functions/Comp$$Lambda$1548
+instanceKlass com/mojang/datafixers/functions/Comp$$Lambda$1547
+instanceKlass com/mojang/datafixers/types/Type$$Lambda$1546
+instanceKlass com/mojang/datafixers/types/Type$$Lambda$1545
+instanceKlass com/mojang/datafixers/types/templates/Sum$SumType$$Lambda$1544
+instanceKlass com/mojang/datafixers/types/templates/Sum$SumType$$Lambda$1543
+instanceKlass com/mojang/datafixers/types/templates/Sum$SumType$$Lambda$1542
+instanceKlass com/mojang/datafixers/util/Either
+instanceKlass com/mojang/datafixers/types/templates/Sum$SumType$$Lambda$1541
+instanceKlass com/mojang/datafixers/types/templates/Tag$TagType$$Lambda$1540
+instanceKlass com/mojang/datafixers/types/templates/Tag$TagType$$Lambda$1539
+instanceKlass com/mojang/datafixers/types/templates/Tag$TagType$$Lambda$1538
+instanceKlass com/mojang/datafixers/types/templates/CompoundList$CompoundListType$$Lambda$1537
+instanceKlass com/mojang/datafixers/types/constant/StringType$$Lambda$1536
+instanceKlass com/mojang/datafixers/types/constant/StringType$$Lambda$1535
+instanceKlass com/mojang/datafixers/types/templates/Named$NamedType$$Lambda$1534
+instanceKlass com/mojang/datafixers/types/templates/Named$NamedType$$Lambda$1533
+instanceKlass com/mojang/datafixers/types/constant/NamespacedStringType$$Lambda$1532
+instanceKlass com/mojang/datafixers/types/constant/NamespacedStringType$$Lambda$1531
+instanceKlass com/mojang/datafixers/types/templates/CompoundList$CompoundListType$$Lambda$1530
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1529
+instanceKlass com/mojang/datafixers/types/JsonOps$$Lambda$1528
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1527
+instanceKlass pm$$Lambda$1526
+instanceKlass com/mojang/datafixers/Dynamic$$Lambda$1525
+instanceKlass com/mojang/datafixers/types/DynamicOps$$Lambda$1524
+instanceKlass com/mojang/datafixers/types/JsonOps$$Lambda$1523
+instanceKlass com/mojang/datafixers/types/JsonOps$$Lambda$1522
+instanceKlass com/mojang/datafixers/types/JsonOps$$Lambda$1521
+instanceKlass com/mojang/datafixers/types/JsonOps
+instanceKlass com/google/common/io/CharStreams
+instanceKlass com/google/common/io/Closer$SuppressingSuppressor
+instanceKlass com/google/common/io/Closer$Suppressor
+instanceKlass com/google/common/io/Closer
+instanceKlass com/google/common/io/CharSource
+instanceKlass com/google/common/hash/PrimitiveSink
+instanceKlass pc$a
+instanceKlass n$a
+instanceKlass n
+instanceKlass pm
+instanceKlass org/apache/commons/io/filefilter/IOFileFilter
+instanceKlass org/apache/commons/io/FileUtils
+instanceKlass it/unimi/dsi/fastutil/objects/Object2IntFunctions$SynchronizedFunction
+instanceKlass it/unimi/dsi/fastutil/objects/Object2IntMaps
+instanceKlass wt
+instanceKlass aqt
+instanceKlass aqx
+instanceKlass apt
+instanceKlass aof
+instanceKlass atb
+instanceKlass io/netty/util/internal/PromiseNotificationUtil
+instanceKlass wm
+instanceKlass hw$$Lambda$1520
+instanceKlass ue$$Lambda$1519
+instanceKlass io/netty/util/ReferenceCountUtil
+instanceKlass ue
+instanceKlass od
+instanceKlass ud$1
+instanceKlass io/netty/buffer/PoolThreadCache$MemoryRegionCache$Entry
+instanceKlass io/netty/buffer/PoolThreadCache$1
+instanceKlass io/netty/buffer/HeapByteBufUtil
+instanceKlass io/netty/buffer/UnpooledByteBufAllocator$UnpooledByteBufAllocatorMetric
+instanceKlass io/netty/buffer/Unpooled
+instanceKlass io/netty/handler/codec/CodecOutputList$CodecOutputLists
+instanceKlass io/netty/handler/codec/CodecOutputList$1
+instanceKlass io/netty/handler/codec/CodecOutputList$CodecOutputListRecycler
+instanceKlass io/netty/buffer/UnsafeByteBufUtil
+instanceKlass io/netty/buffer/AbstractByteBufAllocator$1
+instanceKlass io/netty/buffer/PoolChunk
+instanceKlass io/netty/buffer/PoolChunkMetric
+instanceKlass io/netty/util/Recycler$DefaultHandle
+instanceKlass io/netty/util/Recycler$Stack
+instanceKlass io/netty/util/ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory$1
+instanceKlass io/netty/util/ResourceLeakDetectorFactory
+instanceKlass io/netty/util/internal/MathUtil
+instanceKlass io/netty/util/Recycler$1
+instanceKlass io/netty/util/Recycler$Handle
+instanceKlass io/netty/util/Recycler
+instanceKlass io/netty/buffer/PoolThreadCache$MemoryRegionCache
+instanceKlass io/netty/buffer/PoolThreadCache
+instanceKlass om$b
+instanceKlass om$a$a
+instanceKlass om$c$a
+instanceKlass cfe$b$$Lambda$1518
+instanceKlass cfe$b$$Lambda$1517
+instanceKlass com/mojang/brigadier/suggestion/Suggestions
+instanceKlass aoe
+instanceKlass com/google/common/collect/HashBiMap$Itr
+instanceKlass oe
+instanceKlass og
+instanceKlass of
+instanceKlass ny
+instanceKlass ob
+instanceKlass nz
+instanceKlass oa
+instanceKlass oc
+instanceKlass ok
+instanceKlass oo
+instanceKlass ol
+instanceKlass op
+instanceKlass ns
+instanceKlass nr
+instanceKlass nq
+instanceKlass np
+instanceKlass no
+instanceKlass io/netty/channel/AbstractChannelHandlerContext$16
+instanceKlass nn
+instanceKlass nm
+instanceKlass nl
+instanceKlass nk
+instanceKlass nj
+instanceKlass ni
+instanceKlass nh
+instanceKlass ng
+instanceKlass nf
+instanceKlass ne
+instanceKlass nd
+instanceKlass nc
+instanceKlass nb
+instanceKlass na
+instanceKlass mz
+instanceKlass my
+instanceKlass mx
+instanceKlass mw
+instanceKlass mv
+instanceKlass mu
+instanceKlass mt
+instanceKlass ms
+instanceKlass mr
+instanceKlass mq
+instanceKlass mp
+instanceKlass mo
+instanceKlass mn
+instanceKlass mm
+instanceKlass ml
+instanceKlass mk
+instanceKlass mj
+instanceKlass mi
+instanceKlass mh
+instanceKlass mg
+instanceKlass mf
+instanceKlass md
+instanceKlass mc
+instanceKlass mb
+instanceKlass lz
+instanceKlass lx
+instanceKlass lv
+instanceKlass lu
+instanceKlass ls
+instanceKlass lq
+instanceKlass lp
+instanceKlass lo
+instanceKlass ln
+instanceKlass lm
+instanceKlass ll
+instanceKlass lk
+instanceKlass lh
+instanceKlass lf
+instanceKlass le
+instanceKlass ld
+instanceKlass lc
+instanceKlass lb
+instanceKlass kz
+instanceKlass ky
+instanceKlass kx
+instanceKlass kw
+instanceKlass kv
+instanceKlass ku
+instanceKlass kt
+instanceKlass ks
+instanceKlass kr
+instanceKlass kq
+instanceKlass kp
+instanceKlass ko
+instanceKlass kn
+instanceKlass km
+instanceKlass kk
+instanceKlass kj
+instanceKlass ki
+instanceKlass kg
+instanceKlass kf
+instanceKlass ke
+instanceKlass kd
+instanceKlass kc
+instanceKlass lw
+instanceKlass ka
+instanceKlass jz
+instanceKlass jy
+instanceKlass jx
+instanceKlass jw
+instanceKlass jv
+instanceKlass ju
+instanceKlass jt
+instanceKlass js
+instanceKlass jr
+instanceKlass jq
+instanceKlass jp
+instanceKlass jo
+instanceKlass jn
+instanceKlass jm
+instanceKlass jk
+instanceKlass jj
+instanceKlass ji
+instanceKlass jh
+instanceKlass jg
+instanceKlass jf
+instanceKlass je
+instanceKlass jd
+instanceKlass jc
+instanceKlass jb
+instanceKlass ja
+instanceKlass iz
+instanceKlass nu
+instanceKlass ud
+instanceKlass nv
+instanceKlass io/netty/util/internal/TypeParameterMatcher
+instanceKlass hw$$Lambda$1516
+instanceKlass hw$$Lambda$1515
+instanceKlass hw$$Lambda$1514
+instanceKlass io/netty/handler/codec/ByteToMessageDecoder$2
+instanceKlass io/netty/handler/codec/ByteToMessageDecoder$1
+instanceKlass io/netty/handler/codec/ByteToMessageDecoder$Cumulator
+instanceKlass io/netty/util/concurrent/PromiseTask$RunnableAdapter
+instanceKlass io/netty/handler/timeout/IdleStateHandler$AbstractIdleTask
+instanceKlass io/netty/handler/timeout/IdleStateHandler$1
+instanceKlass io/netty/bootstrap/ServerBootstrap$ServerBootstrapAcceptor$2
+instanceKlass io/netty/channel/nio/AbstractNioByteChannel$1
+instanceKlass io/netty/channel/FileRegion
+instanceKlass io/netty/channel/socket/SocketChannelConfig
+instanceKlass io/netty/channel/socket/SocketChannel
+instanceKlass io/netty/channel/socket/DuplexChannel
+instanceKlass io/netty/util/internal/SocketUtils$5
+instanceKlass io/netty/channel/DefaultMaxMessagesRecvByteBufAllocator$MaxMessageHandle$1
+instanceKlass io/netty/util/UncheckedBooleanSupplier
+instanceKlass io/netty/util/BooleanSupplier
+instanceKlass io/netty/channel/DefaultMaxMessagesRecvByteBufAllocator$MaxMessageHandle
+instanceKlass io/netty/channel/RecvByteBufAllocator$ExtendedHandle
+instanceKlass kh
+instanceKlass bes$1
+instanceKlass bdh$1
+instanceKlass kb
+instanceKlass lr
+instanceKlass afd
+instanceKlass fm
+instanceKlass cec$$Lambda$1513
+instanceKlass cec$$Lambda$1512
+instanceKlass cec$$Lambda$1511
+instanceKlass lt
+instanceKlass ly
+instanceKlass kl
+instanceKlass li
+instanceKlass tl$$Lambda$1510
+instanceKlass tl$$Lambda$1509
+instanceKlass tk
+instanceKlass om$a
+instanceKlass boh$b
+instanceKlass it/unimi/dsi/fastutil/objects/ObjectCollections$SynchronizedCollection
+instanceKlass it/unimi/dsi/fastutil/objects/ObjectCollections
+instanceKlass net/minecraft/server/MinecraftServer$$Lambda$1508
+instanceKlass la
+instanceKlass ma$a
+instanceKlass ma
+instanceKlass lg
+instanceKlass axy$$Lambda$1507
+instanceKlass aph$1
+instanceKlass el$$Lambda$1506
+instanceKlass cbe
+instanceKlass bcs$2
+instanceKlass ayl
+instanceKlass ajd
+instanceKlass bfq$1
+instanceKlass aio$1
+instanceKlass aeu$$Lambda$1505
+instanceKlass axp$$Lambda$1504
+instanceKlass axp$$Lambda$1503
+instanceKlass axp$$Lambda$1502
+instanceKlass com/google/common/base/Predicates$InstanceOfPredicate
+instanceKlass ayc$$Lambda$1501
+instanceKlass xe$$Lambda$1500
+instanceKlass agd$$Lambda$1499
+instanceKlass it/unimi/dsi/fastutil/objects/Object2ByteMap$FastEntrySet
+instanceKlass it/unimi/dsi/fastutil/bytes/ByteCollection
+instanceKlass it/unimi/dsi/fastutil/bytes/ByteIterable
+instanceKlass ael
+instanceKlass com/google/common/collect/AbstractMapBasedMultimap$Itr
+instanceKlass lj
+instanceKlass aeu$$Lambda$1498
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass cfe$a$$Lambda$1497
+instanceKlass cfe$a$$Lambda$1496
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass cew$$Lambda$1495
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass cet$$Lambda$1494
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass cet$$Lambda$1493
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass cet$$Lambda$1492
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/util/Spliterators$AbstractSpliterator
+instanceKlass axp$$Lambda$1491
+instanceKlass axp$$Lambda$1490
+instanceKlass java/util/stream/Streams$2
+instanceKlass java/util/stream/Streams
+instanceKlass java/util/stream/Streams$ConcatSpliterator
+instanceKlass java/util/stream/SliceOps
+instanceKlass java/util/stream/StreamSpliterators$InfiniteSupplyingSpliterator
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass ayc$$Lambda$1489
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass ayc$$Lambda$1488
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass el$$Lambda$1487
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass ayc$$Lambda$1486
+instanceKlass xt
+instanceKlass afa$1
+instanceKlass awg
+instanceKlass awi
+instanceKlass bln
+instanceKlass axy$$Lambda$1485
+instanceKlass it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap$MapIterator
+instanceKlass net/minecraft/server/MinecraftServer$$Lambda$1484
+instanceKlass pp$$Lambda$1483
+instanceKlass pp$$Lambda$1482
+instanceKlass net/minecraft/server/MinecraftServer$$Lambda$1481
+instanceKlass om$c
+instanceKlass f
+instanceKlass sp
+instanceKlass sun/misc/FormattedFloatingDecimal$2
+instanceKlass sun/misc/FormattedFloatingDecimal
+instanceKlass net/minecraft/server/MinecraftServer$$Lambda$1480
+instanceKlass java/util/IdentityHashMap$1
+instanceKlass bxb$1
+instanceKlass bwf
+instanceKlass bww
+instanceKlass bwg
+instanceKlass bxi
+instanceKlass bwl$4
+instanceKlass bwl$3
+instanceKlass bwl$2
+instanceKlass xx
+instanceKlass bwl$1
+instanceKlass bxn
+instanceKlass bwl$b
+instanceKlass bwl
+instanceKlass bws
+instanceKlass bwn
+instanceKlass bwu
+instanceKlass bxb$a
+instanceKlass bwx$f
+instanceKlass bwx
+instanceKlass bwr$n
+instanceKlass bwr
+instanceKlass bxh
+instanceKlass bxb
+instanceKlass bwq
+instanceKlass bwy
+instanceKlass ama$$Lambda$1479
+instanceKlass adf
+instanceKlass adp
+instanceKlass agd$$Lambda$1478
+instanceKlass akm$$Lambda$1477
+instanceKlass afb$1
+instanceKlass akk$$Lambda$1476
+instanceKlass aio$$Lambda$1475
+instanceKlass aio$a
+instanceKlass agd$1
+instanceKlass agd$$Lambda$1474
+instanceKlass xw
+instanceKlass adt
+instanceKlass ako$$Lambda$1473
+instanceKlass bnj$$Lambda$1472
+instanceKlass aqc
+instanceKlass akf$$Lambda$1471
+instanceKlass akf$$Lambda$1470
+instanceKlass akf$$Lambda$1469
+instanceKlass acu$$Lambda$1468
+instanceKlass com/google/common/util/concurrent/ImmediateFuture
+instanceKlass com/google/common/util/concurrent/Futures$2
+instanceKlass com/google/common/util/concurrent/CheckedFuture
+instanceKlass com/google/common/util/concurrent/AsyncFunction
+instanceKlass com/google/common/util/concurrent/GwtFuturesCatchingSpecialization
+instanceKlass th
+instanceKlass td$$Lambda$1467
+instanceKlass bnj$$Lambda$1466
+instanceKlass tc$$Lambda$1465
+instanceKlass agu$a
+instanceKlass ajb
+instanceKlass cbc
+instanceKlass caz
+instanceKlass cbg
+instanceKlass cbd
+instanceKlass agu
+instanceKlass java/lang/Math$RandomNumberGeneratorHolder
+instanceKlass com/google/common/collect/AbstractMapBasedMultimap$WrappedCollection$WrappedIterator
+instanceKlass afr
+instanceKlass xl
+instanceKlass afn
+instanceKlass adz
+instanceKlass ou$a
+instanceKlass afo$$Lambda$1464
+instanceKlass or
+instanceKlass ou
+instanceKlass ot$8
+instanceKlass ot$7
+instanceKlass ot$6
+instanceKlass ot$5
+instanceKlass ot$4
+instanceKlass ot$3
+instanceKlass ot$2
+instanceKlass ot$16
+instanceKlass ot$15
+instanceKlass ot$14
+instanceKlass ot$13
+instanceKlass ot$12
+instanceKlass ot$11
+instanceKlass ot$10
+instanceKlass ot$9
+instanceKlass ot$1
+instanceKlass os
+instanceKlass ot
+instanceKlass bnv$$Lambda$1463
+instanceKlass it/unimi/dsi/fastutil/Arrays
+instanceKlass it/unimi/dsi/fastutil/longs/LongArrays$ArrayHashStrategy
+instanceKlass it/unimi/dsi/fastutil/longs/LongArrays$Segment
+instanceKlass it/unimi/dsi/fastutil/longs/LongArrays
+instanceKlass bnh
+instanceKlass com/google/common/collect/SortedLists
+instanceKlass bne
+instanceKlass bnl
+instanceKlass bnq$$Lambda$1462
+instanceKlass bnk$$Lambda$1461
+instanceKlass bnk$$Lambda$1460
+instanceKlass bnq
+instanceKlass bnp
+instanceKlass bng
+instanceKlass bno
+instanceKlass blq$b
+instanceKlass blq$c
+instanceKlass blq
+instanceKlass xd
+instanceKlass bor
+instanceKlass bor$a$$Lambda$1459
+instanceKlass blu
+instanceKlass blv
+instanceKlass blt
+instanceKlass blr
+instanceKlass bls
+instanceKlass bll
+instanceKlass blm
+instanceKlass bnk
+instanceKlass bnv$$Lambda$1458
+instanceKlass bnv$$Lambda$1457
+instanceKlass bnv$$Lambda$1456
+instanceKlass it/unimi/dsi/fastutil/shorts/ShortList
+instanceKlass it/unimi/dsi/fastutil/shorts/ShortCollection
+instanceKlass it/unimi/dsi/fastutil/shorts/ShortIterable
+instanceKlass bnv$$Lambda$1455
+instanceKlass bnv$$Lambda$1454
+instanceKlass bnv$$Lambda$1453
+instanceKlass bns
+instanceKlass bnt
+instanceKlass bnz
+instanceKlass boa
+instanceKlass tc$$Lambda$1452
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass net/minecraft/server/MinecraftServer$$Lambda$1451
+instanceKlass bnj
+instanceKlass axm
+instanceKlass com/google/common/base/Platform$JdkPatternCompiler
+instanceKlass com/google/common/base/PatternCompiler
+instanceKlass com/google/common/base/Platform
+instanceKlass com/google/common/base/Stopwatch
+instanceKlass vp$1
+instanceKlass bli
+instanceKlass blh$$Lambda$1450
+instanceKlass blj
+instanceKlass jl
+instanceKlass adc
+instanceKlass java/util/function/Predicate$$Lambda$1449
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass aeu$$Lambda$1448
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass aeu$$Lambda$1447
+instanceKlass aeu$$Lambda$1446
+instanceKlass aeu$$Lambda$1445
+instanceKlass aeu$$Lambda$1444
+instanceKlass aeu$$Lambda$1443
+instanceKlass aeu$$Lambda$1442
+instanceKlass aeu
+instanceKlass boh
+instanceKlass sy$$Lambda$1441
+instanceKlass sy$1
+instanceKlass te
+instanceKlass cbn
+instanceKlass td$$Lambda$1440
+instanceKlass td$$Lambda$1439
+instanceKlass ayk
+instanceKlass acw
+instanceKlass it/unimi/dsi/fastutil/longs/Long2LongSortedMap$FastSortedEntrySet
+instanceKlass it/unimi/dsi/fastutil/longs/Long2LongMap$FastEntrySet
+instanceKlass it/unimi/dsi/fastutil/longs/AbstractLong2LongFunction
+instanceKlass it/unimi/dsi/fastutil/longs/Long2LongSortedMap
+instanceKlass it/unimi/dsi/fastutil/longs/Long2LongMap
+instanceKlass it/unimi/dsi/fastutil/longs/Long2LongFunction
+instanceKlass java/util/function/LongUnaryOperator
+instanceKlass acu$$Lambda$1438
+instanceKlass acu$$Lambda$1437
+instanceKlass act
+instanceKlass tx$$Lambda$1436
+instanceKlass tx$$Lambda$1435
+instanceKlass bnd$$Lambda$1434
+instanceKlass tq
+instanceKlass acx
+instanceKlass it/unimi/dsi/fastutil/longs/LongIterator
+instanceKlass java/util/PrimitiveIterator$OfLong
+instanceKlass bow
+instanceKlass bzx
+instanceKlass cao$$Lambda$1433
+instanceKlass cao
+instanceKlass bzv
+instanceKlass caq
+instanceKlass cat
+instanceKlass car
+instanceKlass cas
+instanceKlass cap
+instanceKlass cau
+instanceKlass can$$Lambda$1432
+instanceKlass cam$$Lambda$1431
+instanceKlass bzh
+instanceKlass bzg
+instanceKlass it/unimi/dsi/fastutil/longs/Long2IntSortedMap$FastSortedEntrySet
+instanceKlass it/unimi/dsi/fastutil/longs/Long2IntMap$FastEntrySet
+instanceKlass it/unimi/dsi/fastutil/longs/LongSortedSet
+instanceKlass it/unimi/dsi/fastutil/longs/LongBidirectionalIterable
+instanceKlass it/unimi/dsi/fastutil/longs/AbstractLong2IntFunction
+instanceKlass it/unimi/dsi/fastutil/longs/Long2IntSortedMap
+instanceKlass it/unimi/dsi/fastutil/longs/Long2IntMap
+instanceKlass it/unimi/dsi/fastutil/longs/Long2IntFunction
+instanceKlass java/util/function/LongToIntFunction
+instanceKlass bzf
+instanceKlass cam
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass bzy$$Lambda$1430
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass bzm
+instanceKlass bzk
+instanceKlass bzl
+instanceKlass can
+instanceKlass cav
+instanceKlass bzy
+instanceKlass ayv
+instanceKlass acu
+instanceKlass tc
+instanceKlass bnr
+instanceKlass bnv
+instanceKlass cdx
+instanceKlass tl$$Lambda$1429
+instanceKlass tl$$Lambda$1428
+instanceKlass tl
+instanceKlass sz
+instanceKlass ajh
+instanceKlass td$$Lambda$1427
+instanceKlass td$$Lambda$1426
+instanceKlass td$$Lambda$1425
+instanceKlass td$$Lambda$1424
+instanceKlass td$$Lambda$1423
+instanceKlass ayp
+instanceKlass td$$Lambda$1422
+instanceKlass td$$Lambda$1421
+instanceKlass td$$Lambda$1420
+instanceKlass aym
+instanceKlass ayj
+instanceKlass bmv$c
+instanceKlass bmv$a
+instanceKlass aix
+instanceKlass xm$a
+instanceKlass xm
+instanceKlass bnc
+instanceKlass ayo
+instanceKlass cby
+instanceKlass cck
+instanceKlass net/minecraft/server/MinecraftServer$$Lambda$1419
+instanceKlass net/minecraft/server/MinecraftServer$$Lambda$1418
+instanceKlass x
+instanceKlass il$a$$Lambda$1417
+instanceKlass il$a$$Lambda$1416
+instanceKlass il
+instanceKlass l$$Lambda$1415
+instanceKlass l$a$$Lambda$1414
+instanceKlass bb$a
+instanceKlass ba$d$$Lambda$1413
+instanceKlass ba$d$$Lambda$1412
+instanceKlass al
+instanceKlass av
